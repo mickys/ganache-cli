@@ -1,6 +1,6 @@
 {
   "name": "ganache-cli",
-  "version": "6.8.1-beta.0",
+  "version": "6.8.1-mky",
   "bin": {
     "ganache-cli": "cli.js"
   },
@@ -22,7 +22,7 @@
     "ethereumjs-util"
   ],
   "devDependencies": {
-    "ganache-core": "2.9.1-beta.0",
+    "ganache-core": "git://github.com/trufflesuite/ganache-core.git#da66ca641d5e7f8727b1c630d54d8b1e7ff8f2a4",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "on-build-webpack": "^0.1.0",
